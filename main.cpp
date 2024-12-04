@@ -8,6 +8,10 @@ int main() {
     std::cin >> a;
     std::cout << "Enter chislo B: ";
     std::cin >> b;
+
+    int sum = a + b; 
+    std::cout << "Summa: " << sum << std::endl;
+
     return 0;
 }
 
