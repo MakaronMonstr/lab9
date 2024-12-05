@@ -10,6 +10,8 @@ int main() {
     std::cin >> b;
     int sum = a + b; 
     std::cout << "Summa: " << sum << std::endl;
+	int diff = a - b;
+	std::cout << "Raznost" << diff << std::endl
     return 0;
 }
 
